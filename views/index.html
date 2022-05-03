@@ -1,0 +1,10 @@
+{{ template "layout" . }}
+
+{{ define "main" }}
+    <div class="text">
+        {{ .content }} 
+    </div>
+    <div class="error">
+        {{ .error }} 
+    </div>
+{{ end }}
